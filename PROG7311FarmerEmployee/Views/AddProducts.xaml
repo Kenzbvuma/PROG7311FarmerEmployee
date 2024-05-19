@@ -1,0 +1,87 @@
+﻿<Window x:Class="PROG7311FarmerEmployee.Views.AddProducts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG7311FarmerEmployee.Views"
+        xmlns:models="clr-namespace:PROG7311FarmerEmployee.Models"
+        mc:Ignorable="d"
+        Title="AddProducts" Height="450" Width="800">
+    <Grid>
+        <Border Width="300"
+                Height="400"
+                Background="White"
+                CornerRadius="6">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="15"
+                                  Direction ="-90"
+                                  RenderingBias ="Quality"
+                                  ShadowDepth ="2"
+                                  Color ="Gray" />
+            </Border.Effect>
+            <StackPanel Orientation="Vertical"
+                        Margin="20">
+                <TextBlock Text="Add Product"
+                           FontSize="25"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"
+                           FontWeight="Bold"
+                           Padding="10" />
+                <Grid VerticalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Farmer ID"
+                               Grid.Row="0"
+                               Margin="0,15"
+                               HorizontalAlignment="Left"/>
+                    <TextBox  Grid.Row="1"
+                              Padding="0,5"
+                              Width="255"
+                              BorderThickness="0,0,0,1"
+                              HorizontalAlignment="Left"/>
+                    <TextBlock Text="Product Name"
+                               Grid.Row="2"
+                               Margin="0,15"
+                               HorizontalAlignment="Left"/>
+                    <TextBox  Grid.Row="3"
+                              Padding="0,5"
+                              Width="255"
+                              BorderThickness="0,0,0,1"
+                              HorizontalAlignment="Left"/>
+                    <TextBlock Text="Category"
+                               Grid.Row="4"
+                               Margin="0,15"
+                               HorizontalAlignment="Left"/>
+                    <TextBox  Grid.Row="5"
+                              Padding="0,5"
+                              Width="255"
+                              BorderThickness="0,0,0,1"
+                              HorizontalAlignment="Left"/>
+                    <TextBlock Text="Production Date"
+                               Grid.Row="6"
+                               Margin="0,15"
+                               HorizontalAlignment="Left"/>
+                    <DatePicker Grid.Row="7"
+                                SelectedDate ="{x:Static models:DateConverter.Now}"
+                                HorizontalAlignment="Left"
+                                Width="255"
+                                BorderThickness="0,0,0,1"
+                                Padding="0,5"/>
+                </Grid>
+                <Button x:Name="AddProductBtn"
+                        Content="Add Product"
+                        Foreground="White"
+                        Background="Black"
+                        Margin="0,25"
+                        Height="40"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                        Click="AddProductBtn_Click"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

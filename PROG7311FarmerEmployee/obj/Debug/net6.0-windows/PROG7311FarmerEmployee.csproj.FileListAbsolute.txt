@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\PROG7311FarmerEmployee\PROG7311FarmerEmployee\obj\Debug\net6.0-windows\PROG7311FarmerEmployee.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\PROG7311FarmerEmployee\PROG7311FarmerEmployee\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\User\source\repos\PROG7311FarmerEmployee\PROG7311FarmerEmployee\obj\Debug\net6.0-windows\Views\AddProducts.g.cs
+C:\Users\User\source\repos\PROG7311FarmerEmployee\PROG7311FarmerEmployee\obj\Debug\net6.0-windows\Views\Login.g.cs
+C:\Users\User\source\repos\PROG7311FarmerEmployee\PROG7311FarmerEmployee\obj\Debug\net6.0-windows\Views\Register.g.cs
+C:\Users\User\source\repos\PROG7311FarmerEmployee\PROG7311FarmerEmployee\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\User\source\repos\PROG7311FarmerEmployee\PROG7311FarmerEmployee\obj\Debug\net6.0-windows\PROG7311FarmerEmployee_MarkupCompile.cache
+C:\Users\User\source\repos\PROG7311FarmerEmployee\PROG7311FarmerEmployee\obj\Debug\net6.0-windows\PROG7311FarmerEmployee_MarkupCompile.lref
